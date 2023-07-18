@@ -1,0 +1,142 @@
+/* work sans font from google */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+   font-family: 'Work Sans', sans-serif;
+}
+
+* {
+   margin: 0px;
+   padding: 0px;
+   /* border: 1px solid red; */
+}
+
+
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: #FFF;
+   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+   padding: 30px 150px;  
+}
+
+
+.follow{
+   width: 150px;
+   height: 20px;
+   border-radius: 8px;
+   padding: 10px;
+   background: rgba(11, 2, 35, 0.10);
+   text-align: center;
+}
+
+nav > ul {
+   display: flex;
+}
+
+.nav-it{
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+
+.nav-icon{
+   width: 5rem;
+}
+
+.nav-title{
+   font-size: 3rem;
+}
+
+.g{
+   color: #FF42A5;
+}
+
+nav li {
+   list-style: none;
+   margin-right: 30px;
+   font-weight: 500;
+   font-size: 1rem;  
+   width: 90px;
+   height: 25px;
+   padding: 10px 0px;
+   background: white;
+   text-align: center;
+}
+
+nav li a {
+   text-decoration: none;
+   color: #3C354F
+   text-align: center;
+}
+
+.b-t-1{
+   color: #0B0223;
+   /* text-align: center; */
+   font-size: 2rem;
+   font-weight: 600;
+   text-transform: uppercase;
+   padding-top: 100px;
+   padding-left: 150px;
+}
+
+.b-t-2{
+   /* text-align: center; */
+   font-size: 4rem;
+   font-weight: 800;
+   text-transform: uppercase;
+   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   padding-left: 150px;
+}
+
+.b-t-3{
+   color: #534C64;
+   font-size: 1.2rem;
+   font-weight: 500;
+   padding-left: 170px;
+}
+
+.banner-title{
+   background-image: url(images/Group\ 14.png);
+   width: 600px;
+   height: 420px;
+   
+}
+
+.banner-pic{
+   width: 500px;
+   height: 420px;
+
+}
+
+.banner{
+   display: flex;
+   gap: 5.5rem;
+}
+
+.btn-1{
+   background-color: #FF42A5;
+   border-radius: 30px;
+   padding: 12px 20px;
+   border : none;
+   color : white;
+   text-transform: uppercase;
+}
+
+.btn-2{
+   background-color: #4EC5F7;
+   border-radius: 30px;
+   padding: 12px 20px;
+   border : none;
+   color : white;
+   text-transform: uppercase;
+}
+
+.btn{
+   padding-top: 10px;
+   padding-left: 155px;
+}
+
