@@ -67,7 +67,8 @@ nav li {
 
 nav li a {
    text-decoration: none;
-   color: #3C354F
+   color: #3C354F;
+   cursor: pointer;
 }
 
 .b-t-1{
@@ -123,6 +124,7 @@ nav li a {
    border : none;
    color : white;
    text-transform: uppercase;
+   cursor: pointer;
 }
 
 .btn-2{
@@ -132,6 +134,7 @@ nav li a {
    border : none;
    color : white;
    text-transform: uppercase;
+   cursor: pointer;
 }
 
 .btn{
