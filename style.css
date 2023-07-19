@@ -235,3 +235,85 @@ nav li a {
    color: #534C64;
    padding-left: 125px;
 }
+
+.foot{
+   align-items: center;
+   background-color: #0B0223;
+}
+
+.foot-it{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+   padding-top: 50px;
+   padding-bottom: 20px;
+}
+
+.foot-icon{
+   width: 5rem;
+}
+
+.foot-title{
+   font-size: 3rem;
+   color: white;
+}
+
+.foot-li li {
+   list-style: none;
+   margin-right: 20px;
+   font-weight: 400;
+   font-size: 0.8rem;  
+   width: 100px;
+}
+
+.foot-li li a {
+   text-decoration: none;
+   color: white;
+   cursor: pointer;
+}
+
+.foot-li{
+   display: flex;
+   justify-content: center;
+   gap: 5px;
+   padding-bottom: 25px;
+}
+
+.foot-li-1{
+   display: flex;
+   justify-content: center;
+   gap: 5px;
+   padding-bottom: 25px;
+}
+
+.foot-li-1 li{
+   list-style: none;
+   margin-right: 10px;
+   font-weight: 400;
+   font-size: 0.8rem;  
+   width: 150px;
+   text-align: center;
+}
+
+.foot-li-1 li a {
+   text-decoration: none;
+   color: rgba(255, 255, 255, 0.60);
+   cursor: pointer;
+}
+
+.foot-cpy{
+   font-weight: 400;
+   font-size: 0.8rem;  
+   text-align: center;
+   color: rgba(255, 255, 255, 0.60);
+   padding-bottom: 50px;
+}
+
+.foot-awsm{
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   padding-bottom: 25px;
+}
